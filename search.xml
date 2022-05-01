@@ -1,126 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>源</title>
-    <url>/notes/%E6%BA%90/</url>
-    <content><![CDATA[]]></content>
-      <categories>
-        <category>小记</category>
-      </categories>
-      <tags>
-        <tag>小记</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>markdown 文档测试--demo</title>
-    <url>/test/test/</url>
-    <content><![CDATA[<h1 id="markdown-cheat-sheet"><a class="markdownIt-Anchor" href="#markdown-cheat-sheet">#</a> Markdown Cheat Sheet</h1>
-<p>Thanks for visiting <span class="exturl" data-url="aHR0cHM6Ly93d3cubWFya2Rvd25ndWlkZS5vcmc=">The Markdown Guide</span>!</p>
-<p>This Markdown cheat sheet provides a quick overview of all the Markdown syntax elements. It can’t cover every edge case, so if you need more information about any of these elements, refer to the reference guides for <span class="exturl" data-url="aHR0cHM6Ly93d3cubWFya2Rvd25ndWlkZS5vcmcvYmFzaWMtc3ludGF4">basic syntax</span> and <span class="exturl" data-url="aHR0cHM6Ly93d3cubWFya2Rvd25ndWlkZS5vcmcvZXh0ZW5kZWQtc3ludGF4">extended syntax</span>.</p>
-<h2 id="basic-syntax"><a class="markdownIt-Anchor" href="#basic-syntax">#</a> Basic Syntax</h2>
-<p>These are the elements outlined in John Gruber’s original design document. All Markdown applications support these elements.</p>
-<h3 id="heading"><a class="markdownIt-Anchor" href="#heading">#</a> Heading</h3>
-<h1 id="h1"><a class="markdownIt-Anchor" href="#h1">#</a> H1</h1>
-<h2 id="h2"><a class="markdownIt-Anchor" href="#h2">#</a> H2</h2>
-<h3 id="h3"><a class="markdownIt-Anchor" href="#h3">#</a> H3</h3>
-<h3 id="bold"><a class="markdownIt-Anchor" href="#bold">#</a> Bold</h3>
-<p><strong>bold text</strong></p>
-<h3 id="italic"><a class="markdownIt-Anchor" href="#italic">#</a> Italic</h3>
-<p><em>italicized text</em></p>
-<h3 id="blockquote"><a class="markdownIt-Anchor" href="#blockquote">#</a> Blockquote</h3>
-<blockquote>
-<p>blockquote</p>
-</blockquote>
-<h3 id="ordered-list"><a class="markdownIt-Anchor" href="#ordered-list">#</a> Ordered List</h3>
-<ol>
-<li>First item</li>
-<li>Second item</li>
-<li>Third item</li>
-</ol>
-<h3 id="unordered-list"><a class="markdownIt-Anchor" href="#unordered-list">#</a> Unordered List</h3>
-<ul>
-<li>First item</li>
-<li>Second item</li>
-<li>Third item</li>
-</ul>
-<h3 id="code"><a class="markdownIt-Anchor" href="#code">#</a> Code</h3>
-<p><code>code</code></p>
-<h3 id="horizontal-rule"><a class="markdownIt-Anchor" href="#horizontal-rule">#</a> Horizontal Rule</h3>
-<hr>
-<h3 id="link"><a class="markdownIt-Anchor" href="#link">#</a> Link</h3>
-<p><span class="exturl" data-url="aHR0cHM6Ly93d3cubWFya2Rvd25ndWlkZS5vcmc=">Markdown Guide</span></p>
-<h3 id="image"><a class="markdownIt-Anchor" href="#image">#</a> Image</h3>
-<p><img data-src="https://www.markdownguide.org/assets/images/tux.png" alt="alt text"></p>
-<h2 id="extended-syntax"><a class="markdownIt-Anchor" href="#extended-syntax">#</a> Extended Syntax</h2>
-<p>These elements extend the basic syntax by adding additional features. Not all Markdown applications support these elements.</p>
-<h3 id="table"><a class="markdownIt-Anchor" href="#table">#</a> Table</h3>
-<table>
-<thead>
-<tr>
-<th>Syntax</th>
-<th>Description</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>Header</td>
-<td>Title</td>
-</tr>
-<tr>
-<td>Paragraph</td>
-<td>Text</td>
-</tr>
-</tbody>
-</table>
-<h3 id="fenced-code-block"><a class="markdownIt-Anchor" href="#fenced-code-block">#</a> Fenced Code Block</h3>
-<pre><code>&#123;
-  &quot;firstName&quot;: &quot;John&quot;,
-  &quot;lastName&quot;: &quot;Smith&quot;,
-  &quot;age&quot;: 25
-&#125;
-</code></pre>
-<h3 id="footnote"><a class="markdownIt-Anchor" href="#footnote">#</a> Footnote</h3>
-<p>Here’s a sentence with a footnote. <sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup></p>
-<h3 id="heading-id"><a class="markdownIt-Anchor" href="#heading-id">#</a> Heading ID</h3>
-<h3 id="custom-id" id="my-great-heading"><a class="markdownIt-Anchor" href="#my-great-heading">#</a> My Great Heading</h3>
-<h3 id="definition-list"><a class="markdownIt-Anchor" href="#definition-list">#</a> Definition List</h3>
-<dl>
-<dt>term</dt>
-<dd>definition</dd>
-</dl>
-<h3 id="strikethrough"><a class="markdownIt-Anchor" href="#strikethrough">#</a> Strikethrough</h3>
-<p><s>The world is flat.</s></p>
-<h3 id="task-list"><a class="markdownIt-Anchor" href="#task-list">#</a> Task List</h3>
-<ul class="task-list">
-<li class="task-list-item"><input type="checkbox" id="cbx_0" checked="true" disabled="true"><label for="cbx_0"> Write the press release</label></li>
-<li class="task-list-item"><input type="checkbox" id="cbx_1" disabled="true"><label for="cbx_1"> Update the website</label></li>
-<li class="task-list-item"><input type="checkbox" id="cbx_2" disabled="true"><label for="cbx_2"> Contact the media</label></li>
-</ul>
-<h3 id="emoji"><a class="markdownIt-Anchor" href="#emoji">#</a> Emoji</h3>
-<p>That is so funny! 😂</p>
-<p>(See also <span class="exturl" data-url="aHR0cHM6Ly93d3cubWFya2Rvd25ndWlkZS5vcmcvZXh0ZW5kZWQtc3ludGF4LyNjb3B5aW5nLWFuZC1wYXN0aW5nLWVtb2pp">Copying and Pasting Emoji</span>)</p>
-<h3 id="highlight"><a class="markdownIt-Anchor" href="#highlight">#</a> Highlight</h3>
-<p>I need to highlight these <mark>very important words</mark>.</p>
-<h3 id="subscript"><a class="markdownIt-Anchor" href="#subscript">#</a> Subscript</h3>
-<p>H<sub>2</sub>O</p>
-<h3 id="superscript"><a class="markdownIt-Anchor" href="#superscript">#</a> Superscript</h3>
-<p>X<sup>2</sup></p>
-<hr class="footnotes-sep">
-<section class="footnotes">
-<ol class="footnotes-list">
-<li id="fn1" class="footnote-item"><p>This is the footnote. <a href="#fnref1" class="footnote-backref">↩︎</a></p>
-</li>
-</ol>
-</section>
-]]></content>
-      <categories>
-        <category>测试</category>
-      </categories>
-      <tags>
-        <tag>测试</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>中文markdown文件测试</title>
     <url>/test/%E4%B8%AD%E6%96%87markdown%E6%96%87%E4%BB%B6%E6%B5%8B%E8%AF%95/</url>
     <content><![CDATA[<h1 id="基本语法"><a class="markdownIt-Anchor" href="#基本语法">#</a> 基本语法</h1>
@@ -291,6 +171,126 @@ int main()
       </categories>
       <tags>
         <tag>测试</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>markdown 文档测试--demo</title>
+    <url>/test/test/</url>
+    <content><![CDATA[<h1 id="markdown-cheat-sheet"><a class="markdownIt-Anchor" href="#markdown-cheat-sheet">#</a> Markdown Cheat Sheet</h1>
+<p>Thanks for visiting <span class="exturl" data-url="aHR0cHM6Ly93d3cubWFya2Rvd25ndWlkZS5vcmc=">The Markdown Guide</span>!</p>
+<p>This Markdown cheat sheet provides a quick overview of all the Markdown syntax elements. It can’t cover every edge case, so if you need more information about any of these elements, refer to the reference guides for <span class="exturl" data-url="aHR0cHM6Ly93d3cubWFya2Rvd25ndWlkZS5vcmcvYmFzaWMtc3ludGF4">basic syntax</span> and <span class="exturl" data-url="aHR0cHM6Ly93d3cubWFya2Rvd25ndWlkZS5vcmcvZXh0ZW5kZWQtc3ludGF4">extended syntax</span>.</p>
+<h2 id="basic-syntax"><a class="markdownIt-Anchor" href="#basic-syntax">#</a> Basic Syntax</h2>
+<p>These are the elements outlined in John Gruber’s original design document. All Markdown applications support these elements.</p>
+<h3 id="heading"><a class="markdownIt-Anchor" href="#heading">#</a> Heading</h3>
+<h1 id="h1"><a class="markdownIt-Anchor" href="#h1">#</a> H1</h1>
+<h2 id="h2"><a class="markdownIt-Anchor" href="#h2">#</a> H2</h2>
+<h3 id="h3"><a class="markdownIt-Anchor" href="#h3">#</a> H3</h3>
+<h3 id="bold"><a class="markdownIt-Anchor" href="#bold">#</a> Bold</h3>
+<p><strong>bold text</strong></p>
+<h3 id="italic"><a class="markdownIt-Anchor" href="#italic">#</a> Italic</h3>
+<p><em>italicized text</em></p>
+<h3 id="blockquote"><a class="markdownIt-Anchor" href="#blockquote">#</a> Blockquote</h3>
+<blockquote>
+<p>blockquote</p>
+</blockquote>
+<h3 id="ordered-list"><a class="markdownIt-Anchor" href="#ordered-list">#</a> Ordered List</h3>
+<ol>
+<li>First item</li>
+<li>Second item</li>
+<li>Third item</li>
+</ol>
+<h3 id="unordered-list"><a class="markdownIt-Anchor" href="#unordered-list">#</a> Unordered List</h3>
+<ul>
+<li>First item</li>
+<li>Second item</li>
+<li>Third item</li>
+</ul>
+<h3 id="code"><a class="markdownIt-Anchor" href="#code">#</a> Code</h3>
+<p><code>code</code></p>
+<h3 id="horizontal-rule"><a class="markdownIt-Anchor" href="#horizontal-rule">#</a> Horizontal Rule</h3>
+<hr>
+<h3 id="link"><a class="markdownIt-Anchor" href="#link">#</a> Link</h3>
+<p><span class="exturl" data-url="aHR0cHM6Ly93d3cubWFya2Rvd25ndWlkZS5vcmc=">Markdown Guide</span></p>
+<h3 id="image"><a class="markdownIt-Anchor" href="#image">#</a> Image</h3>
+<p><img data-src="https://www.markdownguide.org/assets/images/tux.png" alt="alt text"></p>
+<h2 id="extended-syntax"><a class="markdownIt-Anchor" href="#extended-syntax">#</a> Extended Syntax</h2>
+<p>These elements extend the basic syntax by adding additional features. Not all Markdown applications support these elements.</p>
+<h3 id="table"><a class="markdownIt-Anchor" href="#table">#</a> Table</h3>
+<table>
+<thead>
+<tr>
+<th>Syntax</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Header</td>
+<td>Title</td>
+</tr>
+<tr>
+<td>Paragraph</td>
+<td>Text</td>
+</tr>
+</tbody>
+</table>
+<h3 id="fenced-code-block"><a class="markdownIt-Anchor" href="#fenced-code-block">#</a> Fenced Code Block</h3>
+<pre><code>&#123;
+  &quot;firstName&quot;: &quot;John&quot;,
+  &quot;lastName&quot;: &quot;Smith&quot;,
+  &quot;age&quot;: 25
+&#125;
+</code></pre>
+<h3 id="footnote"><a class="markdownIt-Anchor" href="#footnote">#</a> Footnote</h3>
+<p>Here’s a sentence with a footnote. <sup class="footnote-ref"><a href="#fn1" id="fnref1">[1]</a></sup></p>
+<h3 id="heading-id"><a class="markdownIt-Anchor" href="#heading-id">#</a> Heading ID</h3>
+<h3 id="custom-id" id="my-great-heading"><a class="markdownIt-Anchor" href="#my-great-heading">#</a> My Great Heading</h3>
+<h3 id="definition-list"><a class="markdownIt-Anchor" href="#definition-list">#</a> Definition List</h3>
+<dl>
+<dt>term</dt>
+<dd>definition</dd>
+</dl>
+<h3 id="strikethrough"><a class="markdownIt-Anchor" href="#strikethrough">#</a> Strikethrough</h3>
+<p><s>The world is flat.</s></p>
+<h3 id="task-list"><a class="markdownIt-Anchor" href="#task-list">#</a> Task List</h3>
+<ul class="task-list">
+<li class="task-list-item"><input type="checkbox" id="cbx_0" checked="true" disabled="true"><label for="cbx_0"> Write the press release</label></li>
+<li class="task-list-item"><input type="checkbox" id="cbx_1" disabled="true"><label for="cbx_1"> Update the website</label></li>
+<li class="task-list-item"><input type="checkbox" id="cbx_2" disabled="true"><label for="cbx_2"> Contact the media</label></li>
+</ul>
+<h3 id="emoji"><a class="markdownIt-Anchor" href="#emoji">#</a> Emoji</h3>
+<p>That is so funny! 😂</p>
+<p>(See also <span class="exturl" data-url="aHR0cHM6Ly93d3cubWFya2Rvd25ndWlkZS5vcmcvZXh0ZW5kZWQtc3ludGF4LyNjb3B5aW5nLWFuZC1wYXN0aW5nLWVtb2pp">Copying and Pasting Emoji</span>)</p>
+<h3 id="highlight"><a class="markdownIt-Anchor" href="#highlight">#</a> Highlight</h3>
+<p>I need to highlight these <mark>very important words</mark>.</p>
+<h3 id="subscript"><a class="markdownIt-Anchor" href="#subscript">#</a> Subscript</h3>
+<p>H<sub>2</sub>O</p>
+<h3 id="superscript"><a class="markdownIt-Anchor" href="#superscript">#</a> Superscript</h3>
+<p>X<sup>2</sup></p>
+<hr class="footnotes-sep">
+<section class="footnotes">
+<ol class="footnotes-list">
+<li id="fn1" class="footnote-item"><p>This is the footnote. <a href="#fnref1" class="footnote-backref">↩︎</a></p>
+</li>
+</ol>
+</section>
+]]></content>
+      <categories>
+        <category>测试</category>
+      </categories>
+      <tags>
+        <tag>测试</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>源</title>
+    <url>/notes/%E6%BA%90/</url>
+    <content><![CDATA[]]></content>
+      <categories>
+        <category>小记</category>
+      </categories>
+      <tags>
+        <tag>小记</tag>
       </tags>
   </entry>
 </search>
