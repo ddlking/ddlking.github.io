@@ -1,0 +1,293 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://ddlking.github.io</id>
+    <title></title>
+    <link href="https://ddlking.github.io" />
+    <updated>2022-04-21T11:55:27.000Z</updated>
+    <category term="小记" />
+    <category term="测试" />
+    <entry>
+        <id>https://ddlking.github.io/test/%E4%B8%AD%E6%96%87markdown%E6%96%87%E4%BB%B6%E6%B5%8B%E8%AF%95/</id>
+        <title>中文markdown文件测试</title>
+        <link rel="alternate" href="https://ddlking.github.io/test/%E4%B8%AD%E6%96%87markdown%E6%96%87%E4%BB%B6%E6%B5%8B%E8%AF%95/"/>
+        <content type="html">&lt;h1 id=&#34;基本语法&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#基本语法&#34;&gt;#&lt;/a&gt; 基本语法&lt;/h1&gt;
+&lt;h2 id=&#34;标题2&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#标题2&#34;&gt;#&lt;/a&gt; 标题 2&lt;/h2&gt;
+&lt;h3 id=&#34;标题3&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#标题3&#34;&gt;#&lt;/a&gt; 标题 3&lt;/h3&gt;
+&lt;h4 id=&#34;标题4&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#标题4&#34;&gt;#&lt;/a&gt; 标题 4&lt;/h4&gt;
+&lt;p&gt;&lt;em&gt;斜体&lt;/em&gt;&lt;br&gt;
+&lt;strong&gt;粗体&lt;/strong&gt;&lt;br&gt;
+&lt;em&gt;&lt;strong&gt;粗斜体&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;这是一个段落，在此处换行。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;这是一个块引用&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;blockquote&gt;
+&lt;p&gt;这是一个多段落嵌套块引用&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;嗯&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;/blockquote&gt;
+&lt;ol&gt;
+&lt;li&gt;有序列表&lt;/li&gt;
+&lt;li&gt;第二个&lt;/li&gt;
+&lt;li&gt;第三个
+&lt;ol start=&#34;2&#34;&gt;
+&lt;li&gt;这会是嵌套吗 (通过缩进得到列表项.)&lt;/li&gt;
+&lt;li&gt;看看&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;li&gt;嗯
+&lt;ol&gt;
+&lt;li&gt;看看 1 是不是必要条件&lt;/li&gt;
+&lt;li&gt;嗯&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;ul&gt;
+&lt;li&gt;无序列表&lt;/li&gt;
+&lt;li&gt;3.141592&lt;/li&gt;
+&lt;li&gt;65359898&lt;/li&gt;
+&lt;/ul&gt;
+&lt;ul&gt;
+&lt;li&gt;en&lt;/li&gt;
+&lt;li&gt;un&lt;/li&gt;
+&lt;li&gt;an&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;下面是代码块&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;#include&amp;lt;iostream&amp;gt;
+using namespace std;
+int main()
+&lt;/code&gt;&lt;/pre&gt;
+&lt;ol&gt;
+&lt;li&gt;en&lt;/li&gt;
+&lt;li&gt;en&lt;br&gt;
+#include &lt;iostream&gt;&lt;br&gt;
+using namespacestd&lt;br&gt;
+int main()&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;这是一个代码 &lt;code&gt;int&lt;/code&gt;&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;这样你就能把含反引号`int`的句子变为代码&lt;/code&gt;&lt;/p&gt;
+&lt;hr&gt;
+&lt;hr&gt;
+&lt;hr&gt;
+&lt;p&gt;最好上下分割开&lt;/p&gt;
+&lt;p&gt;如何添加链接如右 &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmFpZHUuY29t&#34;&gt;此处添加名字 &lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;添加标题 (悬停效果) &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmFpZHUuY29t&#34;&gt;这是一个网址&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;直接 URL 或邮箱地址转为链接&lt;br&gt;
+&lt;span class=&#34;exturl&#34; data-url=&#34;bWFpbHRvOjEwMTY0NTgzMjIzNjNAcXEuY29t&#34;&gt; 1016458322363@qq.com&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;格式化链接&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;如果要斜粗在方圆括号外加 &lt;strong&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmFpZHUuY29t&#34;&gt;粗网址&lt;/span&gt;&lt;/strong&gt;&lt;/li&gt;
+&lt;li&gt;如果要表示为代码请在方括号内加&lt;a href=&#34;#code&#34;&gt; &lt;code&gt;code&lt;/code&gt; &lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;引用式链接&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;第一部分&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmFpZHUuY29t&#34;&gt;你好&lt;/span&gt;&lt;/li&gt;
+&lt;li&gt;似乎 GFM 不可以在中间加空格&lt;/li&gt;
+&lt;li&gt;等价 [你好啊][2]&lt;/li&gt;
+&lt;li&gt;这里弄不出标签&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;[2]: &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cuYmFpZHUuY29t&#34;&gt;https://www.baidu.com&lt;/span&gt; （嗯上面单引号也行）&lt;br&gt;
+可以放在任何位置&lt;/p&gt;
+&lt;p&gt;ps:URL 中的空格请用 &lt;code&gt;%20&lt;/code&gt;  形式 (反引号肯定不用就是强调而已)&lt;/p&gt;
+&lt;p&gt;图片:  （不仅替代文字没出来，还没搞出图像）&lt;br&gt;
+&lt;img data-src=&#34;C:%5CUsers%5Cpzy%5CDesktop%5C%E6%9A%91%E6%9C%9F%E5%AD%A6%E4%B9%A0%E5%86%85%E5%AE%B9%5CMarkdown%5C%0A1.jpg%22%E6%A0%87%E9%A2%98%22&#34; alt=&#34;替代文字,图片又炸了我吐了,后面接地址或URL&#34;&gt;&lt;/p&gt;
+&lt;p&gt;图片再加地址:&lt;br&gt;
+&lt;a href=&#34;https://www.baidu.com&#34;&gt;&lt;img data-src=&#34;https://image.baidu.com/search/detail?ct=503316480&amp;amp;z=0&amp;amp;ipn=d&amp;amp;word=blockquote%E6%98%AF%E4%BB%80%E4%B9%88%E6%84%8F%E6%80%9D&amp;amp;step_word=&amp;amp;hs=0&amp;amp;pn=2&amp;amp;spn=0&amp;amp;di=24430&amp;amp;pi=0&amp;amp;rn=1&amp;amp;tn=baiduimagedetail&amp;amp;is=0%2C0&amp;amp;istype=0&amp;amp;ie=utf-8&amp;amp;oe=utf-8&amp;amp;in=&amp;amp;cl=2&amp;amp;lm=-1&amp;amp;st=undefined&amp;amp;cs=1762276172%2C3737402988&amp;amp;os=313438742%2C133927767&amp;amp;simid=0%2C0&amp;amp;adpicid=0&amp;amp;lpn=0&amp;amp;ln=293&amp;amp;fr=&amp;amp;fmq=1626338810781_R&amp;amp;fm=&amp;amp;ic=undefined&amp;amp;s=undefined&amp;amp;hd=undefined&amp;amp;latest=undefined&amp;amp;copyright=undefined&amp;amp;se=&amp;amp;sme=&amp;amp;tab=0&amp;amp;width=undefined&amp;amp;height=undefined&amp;amp;face=undefined&amp;amp;ist=&amp;amp;jit=&amp;amp;cg=&amp;amp;bdtype=15&amp;amp;oriquery=&amp;amp;objurl=https%3A%2F%2Fgimg2.baidu.com%2Fimage_search%2Fsrc%3Dhttp%3A%2F%2Fwww.ayjs.net%2Fzb_users%2Fupload%2F2019%2F03%2F201903071551940149488149.png%26refer%3Dhttp%3A%2F%2Fwww.ayjs.net%26app%3D2002%26size%3Df9999%2C10000%26q%3Da80%26n%3D0%26g%3D0n%26fmt%3Djpeg%3Fsec%3D1628930814%26t%3De48edb19785eeebf6090f6248e1c5e72&amp;amp;fromurl=ippr_z2C%24qAzdH3FAzdH3Fooo_z%26e3Bwy3f_z%26e3BgjpAzdH3Fr5fpAzdH3F099_z%26e3Bip4s&amp;amp;gsm=3&amp;amp;rpstart=0&amp;amp;rpnum=0&amp;amp;islist=&amp;amp;querylist=&amp;amp;nojc=undefined&#34; alt=&#34;替代文字,图片又炸了我吐了,后面接地址或URL&#34; title=&#34;标题&#34;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;HTML 该怎么填进去怎么填进去&lt;/li&gt;
+&lt;li&gt;转移符号 \ 不需要多说了&lt;/li&gt;
+&lt;li&gt;但是尽量不要在 HTML 中使用制表空格缩进&lt;/li&gt;
+&lt;li&gt;在 HTML 中不要使用 Markdown&lt;/li&gt;
+&lt;li&gt;且尽量对 HTML 的块级元素上下空行隔开&lt;/li&gt;
+&lt;/ul&gt;
+&lt;hr&gt;
+&lt;h1 id=&#34;扩展语法&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#扩展语法&#34;&gt;#&lt;/a&gt; 扩展语法&lt;/h1&gt;
+&lt;p&gt;表格:&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th style=&#34;text-align:left&#34;&gt;表头下面要分隔&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;是不是不用空格&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;sd&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;sd&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td style=&#34;text-align:left&#34;&gt;sd&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;sd&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;ul&gt;
+&lt;li&gt;格式化不支持代码块，强调等等&lt;/li&gt;
+&lt;li&gt;但支持链接和代码&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;要转义表格中的管道符请用 HTML 字符编码 (|)&lt;/p&gt;
+&lt;p&gt;围栏代码块&lt;/p&gt;
+&lt;pre&gt;&lt;code&gt;code
+code too 
+&lt;/code&gt;&lt;/pre&gt;
+&lt;pre&gt;&lt;code class=&#34;language-c++&#34;&gt;#include &amp;lt;iostream&amp;gt;
+using namespace std;
+int main()
+&amp;#123;
+	cout&amp;lt;&amp;lt;&amp;quot;Hello world&amp;quot;;
+	return 0;
+&amp;#125;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;figure class=&#34;highlight java&#34;&gt;&lt;figcaption data-lang=&#34;java&#34;&gt;&lt;span&gt;行高亮&lt;/span&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly9zaG9rYS5sb3N0eXUubWU=&#34;&gt;参考链接&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr class=&#34;marked&#34;&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token keyword&#34;&gt;import&lt;/span&gt; &lt;span class=&#34;token import&#34;&gt;&lt;span class=&#34;token namespace&#34;&gt;java&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;util&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;Scanner&lt;/span&gt;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token class-name&#34;&gt;Scanner&lt;/span&gt; in &lt;span class=&#34;token operator&#34;&gt;=&lt;/span&gt; &lt;span class=&#34;token keyword&#34;&gt;new&lt;/span&gt; &lt;span class=&#34;token class-name&#34;&gt;Scanner&lt;/span&gt; &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token class-name&#34;&gt;System&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;in&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token comment&#34;&gt;// 输入 Scan 之后，按下键盘 Alt + “/” 键，Eclipse 下自动补全。&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class=&#34;marked&#34;&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token class-name&#34;&gt;System&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;out&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;println &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;in&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;nextLine &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr class=&#34;marked&#34;&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token class-name&#34;&gt;System&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;out&lt;span class=&#34;token punctuation&#34;&gt;.&lt;/span&gt;println &lt;span class=&#34;token punctuation&#34;&gt;(&lt;/span&gt;&lt;span class=&#34;token string&#34;&gt;&#34;Hello&#34;&lt;/span&gt; &lt;span class=&#34;token operator&#34;&gt;+&lt;/span&gt; &lt;span class=&#34;token string&#34;&gt;&#34;world.&#34;&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;)&lt;/span&gt;&lt;span class=&#34;token punctuation&#34;&gt;;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;figure class=&#34;highlight bash&#34;&gt;&lt;figcaption data-lang=&#34;bash&#34;&gt;&lt;span&gt;命令行提示符&lt;/span&gt;&lt;/figcaption&gt;&lt;table&gt;&lt;tr&gt;&lt;td data-num=&#34;1&#34;&gt;&lt;/td&gt;&lt;td data-command=&#34;[root@localhost] $&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token builtin class-name&#34;&gt;pwd&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;2&#34;&gt;&lt;/td&gt;&lt;td data-command=&#34;&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;/usr/home/chris/bin&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;3&#34;&gt;&lt;/td&gt;&lt;td data-command=&#34;&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;ls&lt;/span&gt; -la&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;4&#34;&gt;&lt;/td&gt;&lt;td data-command=&#34;[admin@remotehost] #&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;total &lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;5&#34;&gt;&lt;/td&gt;&lt;td data-command=&#34;[admin@remotehost] #&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;drwxr-xr-x   &lt;span class=&#34;token number&#34;&gt;2&lt;/span&gt; chris  chris     &lt;span class=&#34;token number&#34;&gt;11&lt;/span&gt; Jan &lt;span class=&#34;token number&#34;&gt;10&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;16&lt;/span&gt;:48 &lt;span class=&#34;token builtin class-name&#34;&gt;.&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;6&#34;&gt;&lt;/td&gt;&lt;td data-command=&#34;[admin@remotehost] #&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;drwxr--r-x  &lt;span class=&#34;token number&#34;&gt;45&lt;/span&gt; chris  chris     &lt;span class=&#34;token number&#34;&gt;92&lt;/span&gt; Feb &lt;span class=&#34;token number&#34;&gt;14&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;11&lt;/span&gt;:10 &lt;span class=&#34;token punctuation&#34;&gt;..&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;7&#34;&gt;&lt;/td&gt;&lt;td data-command=&#34;&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;-rwxr-xr-x   &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt; chris  chris    &lt;span class=&#34;token number&#34;&gt;444&lt;/span&gt; Aug &lt;span class=&#34;token number&#34;&gt;25&lt;/span&gt;  &lt;span class=&#34;token number&#34;&gt;2013&lt;/span&gt; backup&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;8&#34;&gt;&lt;/td&gt;&lt;td data-command=&#34;&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;-rwxr-xr-x   &lt;span class=&#34;token number&#34;&gt;1&lt;/span&gt; chris  chris    &lt;span class=&#34;token number&#34;&gt;642&lt;/span&gt; Jan &lt;span class=&#34;token number&#34;&gt;17&lt;/span&gt; &lt;span class=&#34;token number&#34;&gt;14&lt;/span&gt;:42 deploy&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;9&#34;&gt;&lt;/td&gt;&lt;td data-command=&#34;[root@localhost] $&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;git&lt;/span&gt; &lt;span class=&#34;token function&#34;&gt;add&lt;/span&gt; -A&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;10&#34;&gt;&lt;/td&gt;&lt;td data-command=&#34;[root@localhost] $&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;git&lt;/span&gt; commit -m &lt;span class=&#34;token string&#34;&gt;&#34;update&#34;&lt;/span&gt;&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td data-num=&#34;11&#34;&gt;&lt;/td&gt;&lt;td data-command=&#34;&#34;&gt;&lt;/td&gt;&lt;td&gt;&lt;pre&gt;&lt;span class=&#34;token function&#34;&gt;git&lt;/span&gt; push&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;/figure&gt;&lt;p&gt;脚注标识符不能是空格或制表符，不管你标识符是啥都是按数字顺序样式输出的 (但这里并不是这样)&lt;br&gt;
+ 呵呵&lt;sup class=&#34;footnote-ref&#34;&gt;&lt;a href=&#34;#fn1&#34; id=&#34;fnref1&#34;&gt;[1]&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;可以多对 1，后面的绿色回车键可以回到上面有标注的地方&lt;/p&gt;
+&lt;p&gt;脚注不要放在列表 块引用 和表格就行&lt;/p&gt;
+&lt;p&gt;自定义标题的 ID&lt;/p&gt;
+&lt;p&gt;你可以在文档中创建一个 标准链接 ，其后是井号（#）和自定义的标题 ID ，从而链接到这个标题&lt;br&gt;
+其它网站也可以通过将自定义的标题 ID 添加到网页的完整的 URL 后面来链接到对应的标题（例如，&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cubWFya2Rvd24ueHl6L2V4dGVuZGVkLXN5bnRheCNoZWFkaW5nLWlkcw==&#34;&gt;Heading IDs&lt;/span&gt;）。&lt;/p&gt;
+&lt;h3 id=&#34;custom-id&#34; id=&#34;my-great-heading&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#my-great-heading&#34;&gt;#&lt;/a&gt; My Great Heading&lt;/h3&gt;
+&lt;p&gt;输出的 HTML： &lt;h3 id=&#34;custom-id&#34;&gt;My Great Heading&lt;/h3&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&#34;#custom-id&#34;&gt;My Great Heading&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;（虽然没链接成）&lt;/p&gt;
+&lt;p&gt;定义列表&lt;/p&gt;
+&lt;p&gt;1&lt;br&gt;
+： 你好&lt;/p&gt;
+&lt;p&gt;2&lt;br&gt;
+：嗯&lt;br&gt;
+：你好&lt;/p&gt;
+&lt;p&gt;（GFM 似乎没有）&lt;/p&gt;
+&lt;p&gt;&lt;s&gt;删除线&lt;/s&gt;&lt;/p&gt;
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_0&#34; checked=&#34;true&#34; disabled=&#34;true&#34;&gt;&lt;label for=&#34;cbx_0&#34;&gt; 1&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_1&#34; disabled=&#34;true&#34;&gt;&lt;label for=&#34;cbx_1&#34;&gt; 2&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_2&#34; disabled=&#34;true&#34;&gt;&lt;label for=&#34;cbx_2&#34;&gt; 3&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;emoji 键入简码或复制粘贴（静态站点要求 UTF-8）&lt;/p&gt;
+&lt;p&gt;有些自动转 url，如果不想要的话反引号表示为代码即可&lt;/p&gt;
+&lt;hr class=&#34;footnotes-sep&#34;&gt;
+&lt;section class=&#34;footnotes&#34;&gt;
+&lt;ol class=&#34;footnotes-list&#34;&gt;
+&lt;li id=&#34;fn1&#34; class=&#34;footnote-item&#34;&gt;&lt;p&gt;第一个脚注 &lt;a href=&#34;#fnref1&#34; class=&#34;footnote-backref&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</content>
+        <category term="测试" />
+        <updated>2022-04-21T11:55:27.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://ddlking.github.io/test/test/</id>
+        <title>markdown 文档测试--demo</title>
+        <link rel="alternate" href="https://ddlking.github.io/test/test/"/>
+        <content type="html">&lt;h1 id=&#34;markdown-cheat-sheet&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#markdown-cheat-sheet&#34;&gt;#&lt;/a&gt; Markdown Cheat Sheet&lt;/h1&gt;
+&lt;p&gt;Thanks for visiting &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cubWFya2Rvd25ndWlkZS5vcmc=&#34;&gt;The Markdown Guide&lt;/span&gt;!&lt;/p&gt;
+&lt;p&gt;This Markdown cheat sheet provides a quick overview of all the Markdown syntax elements. It can’t cover every edge case, so if you need more information about any of these elements, refer to the reference guides for &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cubWFya2Rvd25ndWlkZS5vcmcvYmFzaWMtc3ludGF4&#34;&gt;basic syntax&lt;/span&gt; and &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cubWFya2Rvd25ndWlkZS5vcmcvZXh0ZW5kZWQtc3ludGF4&#34;&gt;extended syntax&lt;/span&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;basic-syntax&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#basic-syntax&#34;&gt;#&lt;/a&gt; Basic Syntax&lt;/h2&gt;
+&lt;p&gt;These are the elements outlined in John Gruber’s original design document. All Markdown applications support these elements.&lt;/p&gt;
+&lt;h3 id=&#34;heading&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#heading&#34;&gt;#&lt;/a&gt; Heading&lt;/h3&gt;
+&lt;h1 id=&#34;h1&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#h1&#34;&gt;#&lt;/a&gt; H1&lt;/h1&gt;
+&lt;h2 id=&#34;h2&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#h2&#34;&gt;#&lt;/a&gt; H2&lt;/h2&gt;
+&lt;h3 id=&#34;h3&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#h3&#34;&gt;#&lt;/a&gt; H3&lt;/h3&gt;
+&lt;h3 id=&#34;bold&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#bold&#34;&gt;#&lt;/a&gt; Bold&lt;/h3&gt;
+&lt;p&gt;&lt;strong&gt;bold text&lt;/strong&gt;&lt;/p&gt;
+&lt;h3 id=&#34;italic&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#italic&#34;&gt;#&lt;/a&gt; Italic&lt;/h3&gt;
+&lt;p&gt;&lt;em&gt;italicized text&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id=&#34;blockquote&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#blockquote&#34;&gt;#&lt;/a&gt; Blockquote&lt;/h3&gt;
+&lt;blockquote&gt;
+&lt;p&gt;blockquote&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h3 id=&#34;ordered-list&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#ordered-list&#34;&gt;#&lt;/a&gt; Ordered List&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;First item&lt;/li&gt;
+&lt;li&gt;Second item&lt;/li&gt;
+&lt;li&gt;Third item&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;unordered-list&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#unordered-list&#34;&gt;#&lt;/a&gt; Unordered List&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;First item&lt;/li&gt;
+&lt;li&gt;Second item&lt;/li&gt;
+&lt;li&gt;Third item&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;code&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#code&#34;&gt;#&lt;/a&gt; Code&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;code&lt;/code&gt;&lt;/p&gt;
+&lt;h3 id=&#34;horizontal-rule&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#horizontal-rule&#34;&gt;#&lt;/a&gt; Horizontal Rule&lt;/h3&gt;
+&lt;hr&gt;
+&lt;h3 id=&#34;link&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#link&#34;&gt;#&lt;/a&gt; Link&lt;/h3&gt;
+&lt;p&gt;&lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cubWFya2Rvd25ndWlkZS5vcmc=&#34;&gt;Markdown Guide&lt;/span&gt;&lt;/p&gt;
+&lt;h3 id=&#34;image&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#image&#34;&gt;#&lt;/a&gt; Image&lt;/h3&gt;
+&lt;p&gt;&lt;img data-src=&#34;https://www.markdownguide.org/assets/images/tux.png&#34; alt=&#34;alt text&#34;&gt;&lt;/p&gt;
+&lt;h2 id=&#34;extended-syntax&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#extended-syntax&#34;&gt;#&lt;/a&gt; Extended Syntax&lt;/h2&gt;
+&lt;p&gt;These elements extend the basic syntax by adding additional features. Not all Markdown applications support these elements.&lt;/p&gt;
+&lt;h3 id=&#34;table&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#table&#34;&gt;#&lt;/a&gt; Table&lt;/h3&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th&gt;Syntax&lt;/th&gt;
+&lt;th&gt;Description&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td&gt;Header&lt;/td&gt;
+&lt;td&gt;Title&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td&gt;Paragraph&lt;/td&gt;
+&lt;td&gt;Text&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
+&lt;h3 id=&#34;fenced-code-block&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#fenced-code-block&#34;&gt;#&lt;/a&gt; Fenced Code Block&lt;/h3&gt;
+&lt;pre&gt;&lt;code&gt;&amp;#123;
+  &amp;quot;firstName&amp;quot;: &amp;quot;John&amp;quot;,
+  &amp;quot;lastName&amp;quot;: &amp;quot;Smith&amp;quot;,
+  &amp;quot;age&amp;quot;: 25
+&amp;#125;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;h3 id=&#34;footnote&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#footnote&#34;&gt;#&lt;/a&gt; Footnote&lt;/h3&gt;
+&lt;p&gt;Here’s a sentence with a footnote. &lt;sup class=&#34;footnote-ref&#34;&gt;&lt;a href=&#34;#fn1&#34; id=&#34;fnref1&#34;&gt;[1]&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;h3 id=&#34;heading-id&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#heading-id&#34;&gt;#&lt;/a&gt; Heading ID&lt;/h3&gt;
+&lt;h3 id=&#34;custom-id&#34; id=&#34;my-great-heading&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#my-great-heading&#34;&gt;#&lt;/a&gt; My Great Heading&lt;/h3&gt;
+&lt;h3 id=&#34;definition-list&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#definition-list&#34;&gt;#&lt;/a&gt; Definition List&lt;/h3&gt;
+&lt;dl&gt;
+&lt;dt&gt;term&lt;/dt&gt;
+&lt;dd&gt;definition&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;h3 id=&#34;strikethrough&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#strikethrough&#34;&gt;#&lt;/a&gt; Strikethrough&lt;/h3&gt;
+&lt;p&gt;&lt;s&gt;The world is flat.&lt;/s&gt;&lt;/p&gt;
+&lt;h3 id=&#34;task-list&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#task-list&#34;&gt;#&lt;/a&gt; Task List&lt;/h3&gt;
+&lt;ul class=&#34;task-list&#34;&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_0&#34; checked=&#34;true&#34; disabled=&#34;true&#34;&gt;&lt;label for=&#34;cbx_0&#34;&gt; Write the press release&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_1&#34; disabled=&#34;true&#34;&gt;&lt;label for=&#34;cbx_1&#34;&gt; Update the website&lt;/label&gt;&lt;/li&gt;
+&lt;li class=&#34;task-list-item&#34;&gt;&lt;input type=&#34;checkbox&#34; id=&#34;cbx_2&#34; disabled=&#34;true&#34;&gt;&lt;label for=&#34;cbx_2&#34;&gt; Contact the media&lt;/label&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;emoji&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#emoji&#34;&gt;#&lt;/a&gt; Emoji&lt;/h3&gt;
+&lt;p&gt;That is so funny! 😂&lt;/p&gt;
+&lt;p&gt;(See also &lt;span class=&#34;exturl&#34; data-url=&#34;aHR0cHM6Ly93d3cubWFya2Rvd25ndWlkZS5vcmcvZXh0ZW5kZWQtc3ludGF4LyNjb3B5aW5nLWFuZC1wYXN0aW5nLWVtb2pp&#34;&gt;Copying and Pasting Emoji&lt;/span&gt;)&lt;/p&gt;
+&lt;h3 id=&#34;highlight&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#highlight&#34;&gt;#&lt;/a&gt; Highlight&lt;/h3&gt;
+&lt;p&gt;I need to highlight these &lt;mark&gt;very important words&lt;/mark&gt;.&lt;/p&gt;
+&lt;h3 id=&#34;subscript&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#subscript&#34;&gt;#&lt;/a&gt; Subscript&lt;/h3&gt;
+&lt;p&gt;H&lt;sub&gt;2&lt;/sub&gt;O&lt;/p&gt;
+&lt;h3 id=&#34;superscript&#34;&gt;&lt;a class=&#34;markdownIt-Anchor&#34; href=&#34;#superscript&#34;&gt;#&lt;/a&gt; Superscript&lt;/h3&gt;
+&lt;p&gt;X&lt;sup&gt;2&lt;/sup&gt;&lt;/p&gt;
+&lt;hr class=&#34;footnotes-sep&#34;&gt;
+&lt;section class=&#34;footnotes&#34;&gt;
+&lt;ol class=&#34;footnotes-list&#34;&gt;
+&lt;li id=&#34;fn1&#34; class=&#34;footnote-item&#34;&gt;&lt;p&gt;This is the footnote. &lt;a href=&#34;#fnref1&#34; class=&#34;footnote-backref&#34;&gt;↩︎&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/section&gt;
+</content>
+        <category term="测试" />
+        <updated>2022-04-21T11:36:03.000Z</updated>
+    </entry>
+    <entry>
+        <id>https://ddlking.github.io/notes/%E6%BA%90/</id>
+        <title>源</title>
+        <link rel="alternate" href="https://ddlking.github.io/notes/%E6%BA%90/"/>
+        <content type="html"></content>
+        <category term="小记" />
+        <updated>2022-04-21T09:28:56.000Z</updated>
+    </entry>
+</feed>

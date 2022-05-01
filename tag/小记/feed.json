@@ -1,0 +1,18 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "null • All posts by \"小记\" tag",
+    "description": "还是乱七八糟的一类人啊",
+    "home_page_url": "https://ddlking.github.io",
+    "items": [
+        {
+            "id": "https://ddlking.github.io/notes/%E6%BA%90/",
+            "url": "https://ddlking.github.io/notes/%E6%BA%90/",
+            "title": "源",
+            "date_published": "2022-04-21T09:28:56.000Z",
+            "content_html": "",
+            "tags": [
+                "小记"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://ddlking.github.io</id>
+    <title> • Posts by &#34;小记&#34; category</title>
+    <link href="https://ddlking.github.io" />
+    <updated>2022-04-21T09:28:56.000Z</updated>
+    <category term="小记" />
+    <category term="测试" />
+    <entry>
+        <id>https://ddlking.github.io/notes/%E6%BA%90/</id>
+        <title>源</title>
+        <link rel="alternate" href="https://ddlking.github.io/notes/%E6%BA%90/"/>
+        <content type="html"></content>
+        <category term="小记" />
+        <updated>2022-04-21T09:28:56.000Z</updated>
+    </entry>
+</feed>
